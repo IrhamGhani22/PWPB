@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:padding="35dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="YAMI SUKEHIRO"
+        android:textColor="#BDAC81"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/judul"
+        android:layout_marginTop="15dp"
+        android:text="Nama"
+        android:textColor="#BDAC81" />
+
+    <EditText
+        android:id="@+id/masukNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nama"
+        android:backgroundTint="#BDAC81"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/alamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/masukNama"
+        android:layout_marginTop="15dp"
+        android:text="Alamat"
+        android:textColor="#BDAC81" />
+
+    <EditText
+        android:id="@+id/masukAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/alamat"
+        android:backgroundTint="#BDAC81"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/kampus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/masukAlamat"
+        android:layout_marginTop="15dp"
+        android:text="Kampus"
+        android:textColor="#BDAC81" />
+
+    <EditText
+        android:id="@+id/masukKampus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kampus"
+        android:backgroundTint="#BDAC81"
+        android:textColor="#FFF" />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/masukKampus"
+        android:layout_marginTop="22dp"
+        android:layout_marginRight="15dp"
+        android:layout_toLeftOf="@id/image2"
+        android:background="@android:color/black"
+        android:src="@drawable/yami_sukehiro" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/masukKampus"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="22dp"
+        android:background="@android:color/black"
+        android:src="@drawable/yami_sukehiro" />
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/masukKampus"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="22dp"
+        android:layout_toLeftOf="@id/image2"
+        android:layout_toEndOf="@id/image2"
+        android:background="@android:color/black"
+        android:src="@drawable/yami_sukehiro" />
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="30dp"
+        android:background="#BDAC81"
+        android:text="Ok" />
+
+    <Button
+        android:id="@+id/batal"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image3"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="5dp"
+        android:background="#BDAC81"
+        android:text="Batal" />
+
+</RelativeLayout>
