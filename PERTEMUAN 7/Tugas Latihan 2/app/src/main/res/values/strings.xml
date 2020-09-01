@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tugas Latihan 2</string>
+    <string name="name_squad">BLACK BULL</string>
+    <string name="detail_squad">
+        Black Bull adalah salah satu dari sembilan regu dari Ksatria Sihir. Skuad ini dikenal karena perilaku destruktifnya dan telah dianggap sebagai skuad terburuk dari organisasi. Black Bull telah mengumpulkan -31 bintang karena perilaku destruktif yang menyebabkan kinerja mereka lebih berbahaya daripada ancaman misi itu sendiri. Namun, karena kedatangan Asta di pasukan dan keberhasilan misi baru-baru ini, Sekarang squad ini menempati peringkat kedua perolehan bintang dibawah Golden Dawn, Namun Black Bull merupakan squad terkuat di kerajaan clover."
+    </string>
+    <string name="komandan_black_bull">Yami Sukehiro</string>
+    <string name="anggota_black_bull">Asta, Noelle, Zora, Luck, Magna, Vanessa, Gauce, Finral, Charmy, Grey, Nero, Henry, Gordon</string>
+    <string name="bintang_blacl_bull">101</string>
+    <string name="markas_black_bull">Kerajaan Clover</string>
+</resources>
